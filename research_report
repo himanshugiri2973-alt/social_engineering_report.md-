@@ -1,0 +1,166 @@
+Social Engineering Attacks 
+----------------------------
+1. Introduction
+-----------------
+Social engineering attacks refers to techniques that attackers use to trick people into giving away their confidential information, clicking harmful links, or granting access to secure systems.
+Unlike technical hacks, social engineering targets human behavior, making it one of the most successful methods used in cybercrime today.
+
+This report covers the main types of social engineering attacks, real case studies, their impact on organizations, and practical ways to prevent them.
+
+2. Types of Social Engineering Attacks
+------------------------------------------
+2.1 Phishing
+--------------
+Phishing is the most common form of social engineering. Attackers send fake emails or messages pretending to be trusted organizations.
+These messages usually contain malicious links or ask users to provide sensitive information.
+
+How it works:
+--------------
+.Fake emails mimic real companies
+.Those links take victims to fake login pages
+.Victims enter passwords or banking info or any other of their confidential info
+.Attackers collect the stolen data from that link
+
+2.2 Spear Phishing
+---------------------
+Spear phishing is more targeted. Instead of sending mass emails, attackers research specific individuals and craft personalized messages for an individual.
+
+How it works:
+---------------
+.Attackers use names, job roles, or company details
+.Messages look extremely convincing ad real
+.Victims trust the source and respond to the messages.
+
+2.3 Pretexting
+---------------
+Pretexting involves creating a fake scenario or identity to trick victims into sharing their information.
+
+How it works:
+--------------
+.Attacker pretends to be someone in authority or an authorised server.
+.They create a believable story that almost makes the victim believe them.
+.Victims feel pressured and share their private details with the attackers.
+
+2.4 Baiting
+--------------
+Baiting uses curiosity or greed to trick victims. It often involves offering “free” items such as USB drives, downloads, or rewards.
+
+How it works:
+----------------
+.Attacker offers a tempting item for free or with rewards.
+.Victim clicks or plugs in infected devices.
+.Malware gets installed on thir devices or data is stolen from their devices.
+
+2.5 Quid Pro Quo
+------------------
+"Quid Pro Quo” means “something for something"
+In this method, attackers promises something in return for information or access, such as free software or “help” with a technical issue.
+
+for eg; A hacker calls an employee pretending to be IT support and says:
+“I can help fix your system issue, but I need your login details first.”
+The employee gives the credentials, thinking it’s legitimate help.
+
+2.6 Tailgating
+-----------------
+Tailgating happens when an unauthorized person physically follows an employee into a restricted area.
+It happens when an unauthorized person follows someone with valid access into a restricted area.
+
+for eg; An attacker carrying a box pretends to be a delivery person.
+An employee sees them and holds the door open.
+The attacker gets inside the building without needing an access card.
+
+3. Case Studies (Real Attacks)
+----------------------------------
+Case Study 1: DNC Phishing Attack (2016)
+-------------------------------------------
+Attackers sent fake Google security emails to Democratic National Committee staff. The email told them to “reset their password.”
+Several staff members entered their credentials into a fake website, giving hackers access to internal emails.
+
+Impact:
+--------
+.Major political data leak
+.Damage to reputation
+.National-level consequences
+
+Case Study 2: Twitter Spear Phishing Attack (2020)
+-------------------------------------------------------
+Attackers targeted Twitter employees with spear-phishing phone calls. They convinced workers to give login access to internal tools.
+
+Impact:
+---------
+.High-profile accounts (Elon Musk, Obama, Apple) were hijacked
+.Public misinformation spread
+.Twitter locked down internal systems
+
+Case Study 3: USB Baiting Attack on Companies
+-------------------------------------------------
+Attackers left infected USB drives in office parking lots. Employees who found and plugged them in accidentally installed malware.
+
+Impact:
+----------
+.Network infections
+.Unauthorized access
+.Loss of sensitive company files
+
+4. Impact of Social Engineering Attacks
+------------------------------------------
+Social engineering attacks can lead to:
+
+.Stolen passwords and confidential data
+.Financial loss and fraud
+.Unauthorized access to accounts or networks
+.Malware or ransomware infections
+.Damage to an organization’s reputation
+.Loss of customer trust
+.Operational downtime
+Because humans are the target, even a highly secure system can be compromised if employees are not trained.
+
+5. Prevention and Recommendations
+-----------------------------------
+a) Employee Awareness Training
+--------------------------------
+Employees should learn how to recognize suspicious emails, calls, and messages.
+
+b) Use Multi-Factor Authentication (MFA)
+------------------------------------------
+Even if attackers steal a password, MFA prevents unauthorized access.
+
+c) Email Security Measures
+----------------------------
+.Spam filters
+.Link scanning
+.Warning labels for external emails
+
+d) Verification Protocols
+---------------------------
+Always verify requests for sensitive information, especially if they seem urgent or unusual.
+
+e) Avoid Unknown Files or USB Devices
+---------------------------------------
+Organizations should block unauthorized USB use and encourage safe behavior.
+
+f) Strong Access Controls
+----------------------------
+Restrict access to sensitive systems so employees only have what they need.
+
+g) Regular Security Audits
+---------------------------
+Routine checks help identify weaknesses that attackers might exploit.
+
+6. Conclusion
+----------------
+Social engineering attacks continue to grow because they exploit human trust rather than technology. 
+Organizations must combine technical controls with proper training and verification processes to defend against these threats.
+Awareness and caution are the strongest tools against social engineering attacks.
+
+7. References
+--------------
+.OWASP Social Engineering Guidelines
+
+.Kaspersky – Social Engineering Threats
+
+.Wired – Twitter 2020 Security Incident
+
+.Forbes – Phishing and Cybercrime Reports
+
+. U.S. Cybersecurity & Infrastructure Security Agency (CISA) – Phishing Alerts
